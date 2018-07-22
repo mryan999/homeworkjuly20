@@ -18,7 +18,7 @@ Step 6: Configure Security Group --> Select existing security group (the one you
 
 Provisioning Docker Instance on AWS in Bash:
 
-<code>curl - sSL https://get.docker.com | sh</code><b>
+<code>curl - sSL https://get.docker.com | sh</code><br>
 <code>sudo usermod – aG docker Ubuntu</code>
 
 $ ssh ubuntu@<IP>
