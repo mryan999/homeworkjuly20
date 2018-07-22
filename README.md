@@ -27,7 +27,10 @@ Provisioning Docker Instance on AWS in Bash:<br>
 tmux<br>
 <code>docker pull hello-world</code>-- to test<br>
 <code>docker pull jupyter/datascience-notebook</code><br>
-<code>docker run --rm -p 10000:8888 -e JUPYTER_LAB_ENABLE=yes -v "$PWD":/home/jovyan/work jupyter/datascience-notebook:e5c5a7d3e52d</code><br>
+<code>docker run --rm -p 10000:8888 -e JUPYTER_LAB_ENABLE=yes -v "$PWD":/home/jovyan/work jupyter/datascience-notebook:e5c5a7d3e52d</code><br><br>
+
+Accessing Jupyter Notebook:<br>
+<code>{public IP listed on EC2}:443</code> 
 
 <br>
 Pwnage: change port from 27017 default to 27016 in security groups to avoiding crawling bots looking for default settings
