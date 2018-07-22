@@ -23,7 +23,7 @@ Provisioning Docker Instance on AWS in Bash:<br>
 <code>curl - sSL https://get.docker.com | sh</code><br>
 <code>sudo usermod – aG docker Ubuntu</code><br>
 <br>
-<code> ssh ubuntu@{IP}</code> <br><br>
+<br>
 tmux<br>
 <code>docker pull hello-world</code>-- to test<br>
 <code>docker pull jupyter/datascience-notebook</code><br>
