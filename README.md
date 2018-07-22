@@ -25,7 +25,7 @@ Provisioning Docker Instance on AWS in Bash:<br>
 <br>
 <code> ssh ubuntu@{IP}</code> <br><br>
 tmux<br>
-<code>docker pull hello-world<code><br> -- to test
+<code>docker pull hello-world</code><br> -- to test
 <code>docker pull jupyter/datascience-notebook</code><br>
 
 <br>
