@@ -33,4 +33,8 @@ Accessing Jupyter Notebook:<br>
 <code>{public IP listed on EC2}:443</code> 
 
 <br>
-Pwnage: change port from 27017 default to 27016 in security groups to avoiding crawling bots looking for default settings
+Pwnage: change port from 27017 default to 27016 in security groups to avoiding crawling bots looking for default settings<br>
+<br>
+Linux on t2.large $67/mo<br>
+Linux on m4.4xlarge $586/mo<br>
+Linux on i3.4xlarge $914/mo
